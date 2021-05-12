@@ -1,13 +1,19 @@
 .container {
-  max-width: 52.5rem;
   width: 100%;
 
   margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
 }
 
-header {
+.content-container {
+  margin-left: 6rem;
+}
+
+.content-container header {
   span.category {
-    display: block;
+    display: inline-block;
     margin-top: 2rem;
 
     font-size: 2.25rem;
@@ -20,7 +26,7 @@ header {
   }
 }
 
-main {
+.content-container main {
   width: 100%;
   margin-top: 5.625rem;
 
